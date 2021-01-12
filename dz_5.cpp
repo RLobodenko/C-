@@ -12,18 +12,18 @@ double symma_ssydy;
 double platejey_v_god;
 double chislo_let;
 double plata;
-cout << " Введите Процент =";
+cout << " vvedite procent =";
 cin >> procent;
-cout << " Введите Сумму Cсуды =";
+cout << " vvedite symmy ssydy =";
 cin >> symma_ssydy;
-cout << " Введите Платежей В Год =";
+cout << " vvedite platejei v god =";
 cin >> platejey_v_god;
-cout << " Введите Число Лет =";
+cout << " vvedite chislo let =";
 cin >> chislo_let;
 
 plata = platej(procent,symma_ssydy,platejey_v_god,chislo_let);
 
-cout << " Платёж " << plata << endl;
+cout << " platej " << plata << endl;
 return 0;
 _getch();
 return 0;
